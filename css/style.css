@@ -54,6 +54,7 @@ main {
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .score {
@@ -83,7 +84,6 @@ main {
   border-radius: 9px;
   color: #fff;
   width: 65%;
-  padding: 2rem;
   text-align: center;
   transition: all 0.75s;
 }
@@ -100,7 +100,8 @@ main {
 }
 
 /* ABSOLUTE POSITIONED ELEMENTS */
-.btn {
+.btn,
+.play-till {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -132,6 +133,14 @@ main {
 .btn--new {
   top: 4rem;
 }
+
+.play-till {
+  top: 10rem;
+  width: 10rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
 .btn--roll {
   top: 39.3rem;
 }
@@ -158,7 +167,7 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: #37ee7db0;
 }
 
 .player--winner .name {
