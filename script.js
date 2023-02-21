@@ -58,7 +58,7 @@ const rollDice = function () {
     randNum = Math.trunc(Math.random() * 6 + 1);
     console.log(randNum);
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${randNum}.png`;
+    diceEl.src = `/images/dice-${randNum}.png`;
     if (randNum !== 1) {
       currentScore += randNum;
       document.querySelector(`#current--${activePlayer}`).textContent =
