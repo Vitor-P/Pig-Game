@@ -31,7 +31,8 @@
 
   main {
     flex-direction: column;
-    height: 90%;
+    width: 95%;
+    height: 95%;
   }
 
   .btn::first-letter {
@@ -51,13 +52,6 @@
     font-size: 1.2rem;
   }
 
-  .btn--roll {
-    top: 52rem;
-  }
-  .btn--hold {
-    top: 56rem;
-  }
-
   /* LAYOUT */
   .player {
     flex: 50%;
@@ -75,6 +69,16 @@
     flex-direction: column;
     align-items: center;
     transition: all 0.75s;
+    position: relative;
+  }
+
+  .btn--roll {
+    position: absolute;
+    bottom: 6rem;
+  }
+  .btn--hold {
+    position: absolute;
+    bottom: 2rem;
   }
 
   .name {
